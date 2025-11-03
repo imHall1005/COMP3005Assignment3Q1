@@ -15,7 +15,7 @@ public class Main {
         //we set variables for connection to sql server
         String url = "jdbc:postgresql://localhost:5432/Students";
         String user = "postgres";
-        String password = "Pass0nt10";
+        String password = "admin";
 
         try{
             //connect to sql server
@@ -43,7 +43,7 @@ public class Main {
     public static void addStudent(String firstName,String lastName,String email,String enrollmentDate){
         String url = "jdbc:postgresql://localhost:5432/Students";
         String user = "postgres";
-        String password = "Pass0nt10";
+        String password = "admin";
 
         try{
             Class.forName("org.postgresql.Driver");
@@ -60,7 +60,7 @@ public class Main {
     public static void updateStudentEmail(int student_id, String newEmail){
         String url = "jdbc:postgresql://localhost:5432/Students";
         String user = "postgres";
-        String password = "Pass0nt10";
+        String password = "admin";
 
         try{
             Class.forName("org.postgresql.Driver");
@@ -77,7 +77,7 @@ public class Main {
     public static void deleteStudent(int student_id){
         String url = "jdbc:postgresql://localhost:5432/Students";
         String user = "postgres";
-        String password = "Pass0nt10";
+        String password = "admin";
 
         try{
             Class.forName("org.postgresql.Driver");
